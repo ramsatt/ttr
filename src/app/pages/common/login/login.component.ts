@@ -20,16 +20,7 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
     $(function() {
 
-      // Form Validation
-      $('#form-validation').validate({
-        submit: {
-          settings: {
-            inputContainer: '.form-group',
-            errorListClass: 'form-control-error',
-            errorClass: 'has-danger'
-          }
-        }
-      });
+      
 
       // Show/Hide Password
 
