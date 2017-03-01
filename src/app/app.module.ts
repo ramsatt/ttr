@@ -14,6 +14,7 @@ import { MenuTopComponent } from './component/menu-top/menu-top.component';
 import { MenuRightComponent } from './component/menu-right/menu-right.component';
 import { MenuFooterComponent } from './component/menu-footer/menu-footer.component';
 import { DashboardComponent } from './pages/admin/dashboard/dashboard.component';
+import { SmallStepBlockComponent } from './component/common/small-step-block/small-step-block.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { DashboardComponent } from './pages/admin/dashboard/dashboard.component'
     MenuTopComponent,
     MenuRightComponent,
     MenuFooterComponent,
-    DashboardComponent
+    DashboardComponent,
+    SmallStepBlockComponent
   ],
   imports: [
     BrowserModule,
