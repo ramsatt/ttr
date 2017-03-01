@@ -8,38 +8,56 @@
 
 <section class="page-content">
   <div class="page-content-inner">
-    <div class="dashboard-container">
+    <div class="dashboard-container" style="width: 100%">
       <div class="row">
         <div class="col-xl-3 col-lg-6 col-sm-6 col-xs-12">
-          <div class="widget widget-seven background-success">
-            <div class="widget-body">
-              <div href="javascript: void(0);" class="widget-body-inner">
-                <h5 class="text-uppercase">Week Sales</h5>
-                <i class="counter-icon icmn-cash3"></i>
-                <span class="counter-count">
-                                <i class="icmn-arrow-up5"></i>
-                                $<span class="counter-init">942</span>
-                            </span>
-              </div>
-            </div>
-          </div>
+          <app-small-step-block [class]="''" [icon]="'books'" [title]="'Accounts'" [count]="38"></app-small-step-block>
         </div>
-
         <div class="col-xl-3 col-lg-6 col-sm-6 col-xs-12">
-          <div class="widget widget-seven background-default">
-            <div class="widget-body">
-              <div href="javascript: void(0);" class="widget-body-inner">
-                <h5 class="text-uppercase">Server Uptime</h5>
-                <i class="counter-icon icmn-server"></i>
-                <span class="counter-count">
-                                <i class="icmn-arrow-down5"></i>
-                                <span class="counter-init">99</span>%
-                            </span>
-              </div>
-            </div>
-          </div>
+          <app-small-step-block [class]="''" [icon]="'city'" [title]="'Sites'" [count]="1565"></app-small-step-block>
         </div>
-
+        <div class="col-xl-3 col-lg-6 col-sm-6 col-xs-12">
+          <app-small-step-block [class]="''" [icon]="'design'" [title]="'Assets'" [count]="3250"></app-small-step-block>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-6 col-xs-12">
+          <app-small-step-block [class]="''" [icon]="'insert-template'" [title]="'Tickets'" [count]="3294"></app-small-step-block>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xl-3 col-lg-6 col-sm-6 col-xs-12">
+          <app-small-step-block [class]="''" [icon]="'truck'" [title]="'Dispatch'" [count]="19"></app-small-step-block>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-6 col-xs-12">
+          <app-small-step-block [class]="''" [icon]="'calendar'" [title]="'Schedule'" [count]="9"></app-small-step-block>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-6 col-xs-12">
+          <app-small-step-block [class]="''" [icon]="'office'" [title]="'Branches'" [count]="1705"></app-small-step-block>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-6 col-xs-12">
+          <app-small-step-block [class]="''" [icon]="'cogs'" [title]="'Parts'" [count]="139"></app-small-step-block>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xl-3 col-lg-6 col-sm-6 col-xs-12">
+          <app-small-step-block [class]="''" [icon]="'hammer'" [title]="'Request Parts'" [count]="26"></app-small-step-block>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-6 col-xs-12">
+          <app-small-step-block [class]="''" [icon]="'cart5'" [title]="'Purchase Order'" [count]="11"></app-small-step-block>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-6 col-xs-12">
+          <app-small-step-block [class]="''" [icon]="'user'" [title]="'Goods Recipient'" [count]="15"></app-small-step-block>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-6 col-xs-12">
+          <app-small-step-block [class]="''" [icon]="'users'" [title]="'Suppliers'" [count]="10"></app-small-step-block>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xl-3 col-lg-6 col-sm-6 col-xs-12">
+          <app-small-step-block [class]="''" [icon]="'factory'" [title]="'Warehouse'" [count]="38"></app-small-step-block>
+        </div>
 
       </div>
     </div>
